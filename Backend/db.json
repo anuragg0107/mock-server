@@ -1,0 +1,44 @@
+{
+    "data":[
+        {
+            "id":1,
+            "name":"anurag gupta",
+            "email":"anurag.gupta@gmail.com",
+            "mobile_no":1234567890,
+            "location":"Satna",
+            "State":"Madhya Pradesh"
+        },
+        {
+            "id":2,
+            "name":"ankit gupta",
+            "email":"ankitgupta@gmail.com",
+            "mobile_no":8989759865,
+            "location":"Bhopal",
+            "State":"Madhya Pradesh"
+        },
+        {
+            "id":3,
+            "name":"Ankush gupta",
+            "email":"ankushgupta@gmail.com",
+            "mobile_no":9868952653,
+            "location":"Raipur",
+            "State":"Chhattisgarh"
+        },
+        {
+            "id":4,
+            "name":"anmol gupta",
+            "email":"a_gupta@gmail.com",
+            "mobile_no":8526469865,
+            "location":"Noida",
+            "State":"Delhi"
+        },
+        {
+            "id":5,
+            "name":"jatin gupta",
+            "email":"jatin_gupta@gmail.com",
+            "mobile_no":898978565,
+            "location":"Jaipur",
+            "State":"Rajasthan"
+        }
+    ]
+}

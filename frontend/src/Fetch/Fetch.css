@@ -1,0 +1,23 @@
+h1{
+    font-weight: 600;
+    font-size: 32px;
+    color: brown;
+    font-style: oblique;
+    text-align: center;
+    text-transform: capitalize;
+}
+.user-table{
+    width: 800px;
+    margin-left: 20px;
+}
+td{
+    border: 1px solid burlywood;
+}
+th{
+    border: 1px solid brown;
+    font-size: 20px;
+    height: 26px;
+    width: auto;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
