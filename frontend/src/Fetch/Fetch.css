@@ -21,3 +21,17 @@ th{
     justify-content: space-evenly;
     font-weight: 500;
 }
+.deleteBtn{
+    height: 25px;
+    width: 160px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #f4511e;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+

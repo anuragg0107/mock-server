@@ -6,7 +6,7 @@ const Fetch = () => {
   const [userData,setUserData]=useState([])
 
   const userFetchData=async()=>{
-await axios.get("http://localhost:4000/data")
+await axios.get("https://mock-server-trnk.onrender.com/data")
     .then((res)=>setUserData(res.data))
     .catch((err)=>console.log(err))
   }
@@ -42,10 +42,10 @@ await axios.get("http://localhost:4000/data")
               <td>{el.name}</td>
               <td>{el.mobile_no}</td>
               <td>{el.email}</td>
-              <td>{el.city}</td>
-              <td>{el.state}</td>
+              <td>{el.location}</td>
+              <td>{el.State}</td>
               <td>
-                <button onClick={()=>handleDelete(el.id)}>Delete</button>
+                <button className='deleteBtn' onClick={()=>handleDelete(el.id)}>Delete</button>
               </td>
             </tr>
         ))}
